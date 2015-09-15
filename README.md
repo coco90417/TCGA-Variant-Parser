@@ -5,6 +5,12 @@
 git clone https://github.com/coco90417/TCGA-Variant-Parser
 ```
 
+## Update
+
+```
+git pull https://github.com/coco90417/TCGA-Variant-Parser
+```
+
 ## Usage
 - -h, --help                      print help message   
 - -m, --manual                    print manual message
