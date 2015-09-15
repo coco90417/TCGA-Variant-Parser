@@ -24,7 +24,15 @@ Download ACC somatic mutation variants
 ```
 tcga_variant_parser.pl download -s ACC -c crawl_20140728.db
 ```
+Download somatic mutation variants from all subtypes
+```
+tcga_variant_parser.pl download -c crawl_20140728.db
+```
 Parse ACC somatic mutation variants and generate an ANNOVAR input file acc.ann (last two columns are sample name and cancer subtype)
 ```
 tcga_variant_parser.pl parse -s ACC -c crawl_20140728.db --db . -ann acc.ann 
+```
+Parse somatic mutation variants from all subtypes and generate an ANNOVAR input file all.ann (last two columns are sample name and cancer subtype)
+```
+tcga_variant_parser.pl parse -c crawl_20140728.db --db . -ann all.ann 
 ```
